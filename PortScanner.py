@@ -22,13 +22,9 @@ class Scanner:
     def port(self, value):
         self._port = value
 
-begin = 75
-end = 80
 target = '127.0.0.1'
    
 portScanner = nmap.PortScanner() 
-#result = portScanner.scan(target,'1026')
-#result = result['scan'][target]['tcp'][1026]['state']
 
 fiwareScanners = [Scanner('1026'), Scanner("1883"), Scanner("4041"), Scanner("8666"), Scanner("27017")]
 
