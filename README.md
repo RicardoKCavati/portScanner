@@ -3,9 +3,9 @@
 ### Professor: 
 DR. FÁBIO HENRIQUE CABRINI
 ### Alunos: 
-BRENO AUGUSTO BATISTA GIANOTTI
+BRENO AUGUSTO BATISTA GIANOTTI - 1680972111038
 
-RICARDO KROMER CAVATI
+RICARDO KROMER CAVATI - 1680972313005
 ## Explicação sobre o código linha a linha
 Nas três primeiras linhas são importadas as bibliotecas usadas no experimento, são elas nmap, socket e typing
 Da linha 5 a linha 23 é definida uma classe chamada Scanner, ela é composta por duas propriedades, a "canConnect" usada para identificar se é possível se conectar a determinada porta, a porta é definida na propriedade "port", na classe há quatro métodos (getters e settters) e um construtor.
